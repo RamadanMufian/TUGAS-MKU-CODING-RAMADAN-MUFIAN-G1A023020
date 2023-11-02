@@ -32,4 +32,27 @@ Kemudian, nilai count akan ditingkatkan dengan 1 menggunakan count++;. Ini digun
 6.gambar hasil dari penjlanan program
 ![Screenshot (112)](https://github.com/RamadanMufian/TUGAS-MKU-CODING-RAMADAN-MUFIAN-G1A023020/assets/147229546/86da5d8d-b409-4a7a-96bf-bd835063ffcf)
 
+# soal nomor 2
+pada soal ini terdapat penerapan if else dalam perulangan while 
 
+
+1  
+        while (bilangan != 0) {
+
+        
+while (bilangan != 0): Ini adalah bagian dari loop while. Ini berarti loop akan terus berjalan selama "bilangan" tidak sama dengan 0. Ketika "bilangan" menjadi 0, loop akan berhenti.
+
+2
+       
+        if (bilangan % 2 == 0) {
+                System.out.println(bilangan + " adalah bilangan genap."
+                
+Di dalam loop while, ada pernyataan if-else yang digunakan untuk memeriksa apakah "bilangan" adalah genap atau ganjil.
+if (bilangan % 2 == 0): Ini adalah pernyataan if yang menguji apakah "bilangan" habis dibagi (modulus) dengan 2 dan memiliki sisa 0. Jika hasilnya 0, maka "bilangan" adalah genap.        
+Jika kondisi if benar (artinya, "bilangan" adalah genap), maka program akan mencetak pesan "bilangan adalah bilangan genap." ke layar.
+
+3
+    
+        else {
+                System.out.println(bilangan + " adalah bilangan ganjil.");
+ika kondisi if tidak benar (artinya, "bilangan" bukan genap), maka program akan menjalankan pernyataan dalam blok else. Di dalam blok else, program mencetak pesan "bilangan adalah bilangan ganjil." ke layar.
