@@ -62,7 +62,7 @@ contoh penjalanan pogram yang menggunkan penerapan if else dalam loop (perulanga
 ![Screenshot (114)](https://github.com/RamadanMufian/TUGAS-MKU-CODING-RAMADAN-MUFIAN-G1A023020/assets/147229546/ded0a726-882d-4b41-9396-724d80422166)
 
 
-#soal nomor 3
+# soal nomor 3
 
 dalam soal ini di perintahkan membuar program zodiak dengan menggunakan fitur input
 
@@ -103,4 +103,27 @@ kemudian pencarian zodian dengan menggunakan metode for, if dimana akan mengiden
             System.out.println("Zodiak Anda adalah " + zodiacSign + ".");
         } else {
             System.out.println("Tanggal lahir tidak valid.");
-dan yang terakhir yaitu pentuan atau pengambilan kesimpulan denan metode if dan else dimana akan menamoilkan zodiac sesuai dengan data yang  di tampug
+dan yang terakhir yaitu pentuan atau pengambilan kesimpulan denan metode if dan else dimana akan menamoilkan zodiac sesuai dengan data yang  di tampung
+
+6 brukut adalah hasil dari pencarian dan penjalan program zodiac 
+
+![Screenshot (115)](https://github.com/RamadanMufian/TUGAS-MKU-CODING-RAMADAN-MUFIAN-G1A023020/assets/147229546/9b60176c-e449-4031-8cd5-80279a23dbcb)
+
+# soal nomor 4
+ 
+ dalam soal init printah nya yaitu menampilkan data array 
+
+ 1
+ 
+          int[] myArray = {1, 2, 3, 4, 5};
+pertma yaitu menyimpan variable dengan tipe data array dimana disini data di dalanya yaitu 1, 2, 3, 4, 5 dengan menggunkan deklarasi variable int
+
+2 
+
+        for (int i = 0; i < myArray.length; i++) {
+            System.out.println(myArray[i]);
+kemudian setelah itu menampilkan variable dengan loop (prulangan) if 
+
+3 brikuta adalah hasil outpunya
+![Screenshot (116)](https://github.com/RamadanMufian/TUGAS-MKU-CODING-RAMADAN-MUFIAN-G1A023020/assets/147229546/e4606835-adbd-4b07-8b77-18bf74fb5764)
+
