@@ -56,3 +56,8 @@ Jika kondisi if benar (artinya, "bilangan" adalah genap), maka program akan menc
         else {
                 System.out.println(bilangan + " adalah bilangan ganjil.");
 ika kondisi if tidak benar (artinya, "bilangan" bukan genap), maka program akan menjalankan pernyataan dalam blok else. Di dalam blok else, program mencetak pesan "bilangan adalah bilangan ganjil." ke layar.
+contoh penjalanan pogram yang menggunkan penerapan if else dalam loop (perulangan) while
+
+#soal nomor 3
+dalam soal ini di perintahkan membuar program zodiak dengan menggunakan fitur input
+
