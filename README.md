@@ -58,6 +58,49 @@ Jika kondisi if benar (artinya, "bilangan" adalah genap), maka program akan menc
 ika kondisi if tidak benar (artinya, "bilangan" bukan genap), maka program akan menjalankan pernyataan dalam blok else. Di dalam blok else, program mencetak pesan "bilangan adalah bilangan ganjil." ke layar.
 contoh penjalanan pogram yang menggunkan penerapan if else dalam loop (perulangan) while
 
+3 contoh program saat di jalankan
+![Screenshot (114)](https://github.com/RamadanMufian/TUGAS-MKU-CODING-RAMADAN-MUFIAN-G1A023020/assets/147229546/ded0a726-882d-4b41-9396-724d80422166)
+
+
 #soal nomor 3
+
 dalam soal ini di perintahkan membuar program zodiak dengan menggunakan fitur input
 
+1
+
+        String[] zodiacSigns = {
+                "Aquarius", "Pisces", "Aries ", "Taurus", "Gemini", "Cencer",
+                "Leo", "Virgo", "libra", "Scorpio", "sagitarius", "Capricorn"
+ini adalah bentuk dari kamus zodiak menggunkan data array yang menginput semua jenis zodiac 
+
+2
+
+        int[] startDates = { 20, 19, 21, 20, 21, 21, 23, 23, 23, 23, 23, 22 };
+        int[] endDates = { 18, 20, 19, 20, 20, 22, 22, 22, 21, 22, 21, 19 };
+kemudian penggunan deklarasi int untuk membuat startdates dan enddates dimana yang berisi pengisian batasa hari sesuai zodiac
+
+3
+
+         Scanner scanner = new Scanner(System.in);
+        System.out.print("Masukkan bulan kelahiran (dalam angka): ");
+        int month = scanner.nextInt();
+        System.out.print("Masukkan hari kelahiran: ");
+        int day = scanner.nextInt();
+kemudian pembuatan data imput di tampilan pada saat program berjalan atau out put yang berisi printah untuk memasukan nomor bulan dan nomor hari ke lahiran 
+
+4
+
+         String zodiacSign = null;
+        for (int i = 0; i < zodiacSigns.length; i++) {
+            if ((month == i + 1 && day >= startDates[i]) || (month == i + 2 && day <= endDates[i])) {
+                zodiacSign = zodiacSigns[i];
+                break;
+kemudian pencarian zodian dengan menggunakan metode for, if dimana akan mengidentifikasi sesuai urutan zodiac pada bulan dan angka kelahiran
+
+5
+
+        if (zodiacSign != null) {
+            System.out.println("Zodiak Anda adalah " + zodiacSign + ".");
+        } else {
+            System.out.println("Tanggal lahir tidak valid.");
+dan yang terakhir yaitu pentuan atau pengambilan kesimpulan denan metode if dan else dimana akan menamoilkan zodiac sesuai dengan data yang  di tampug
